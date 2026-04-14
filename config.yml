@@ -1,0 +1,32 @@
+# RandomTokenAbilities Configuration
+
+# Enable/Disable specific tokens
+tokens:
+  fire_god: true
+  thunder_strike: true
+  speed_demon: true
+  tank_mode: true
+  teleporter: true
+  lifesteal: true
+  freeze_touch: true
+  gravity_control: true
+  invisibility_cloak: true
+  explosion_master: true
+  archer_king: true
+  time_slow: true
+  shield_aura: true
+  poison_curse: true
+  lucky_god: true
+
+# Ability settings
+settings:
+  teleporter_distance: 10
+  lifesteal_percent: 20
+  freeze_duration: 3
+  invisibility_duration: 10
+  explosion_damage: 3.0
+  archer_damage_multiplier: 2.0
+  time_slow_radius: 10
+  shield_aura_reduction: 0.3
+  poison_duration: 5
+  lucky_god_interval: 30

@@ -1,0 +1,23 @@
+name: RandomTokenAbilities
+version: 1.0.0
+main: com.randomtoken.RandomTokenAbilities
+api-version: '1.21'
+author: YourName
+description: Random token abilities plugin
+
+commands:
+  token:
+    description: Get a random token ability
+    usage: /token
+  mytoken:
+    description: View your current token
+    usage: /mytoken
+  resettoken:
+    description: Reset a player's token (admin only)
+    usage: /resettoken <player>
+    permission: randomtoken.admin
+    
+permissions:
+  randomtoken.admin:
+    description: Admin permissions
+    default: op
